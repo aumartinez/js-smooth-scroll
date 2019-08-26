@@ -6,7 +6,7 @@ A JS smooth scroll function
 To use this approach there is a required setup in the HTML elements, ie:
 
 ```html
-<a href="#target-point" data-scroll="true" data-target="#target-point">Go to target</a>
+<a href="#target-point" data-scroll="true">Go to target</a>
 
 <!-- More HTML elements -->
 
