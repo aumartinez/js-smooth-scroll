@@ -1,11 +1,11 @@
 function run() {
 	let elems = document.querySelectorAll("*");
-	let scrollelems = filterelems(elems, "data-scroll", "true");
+	let scrollElems = filterElems(elems, "data-scroll", "true");
 
-	addEventListenerToList(scrollelems, "click", smoothscroll);
+	addEventListenerToList(scrollElems, "click", smoothScroll);
 }
 
-function filterelems(elems, attribute, data) {
+function filterElems(elems, attribute, data) {
 	let arr = [];
 	for (let i = 0; i < elems.length; i++) {
 		if (elems[i].getAttribute(attribute) == data) {
@@ -22,7 +22,7 @@ function addEventListenerToList(datalist, evt, func) {
 	}
 }
 
-function smoothscroll(evt) {
+function smoothScroll(evt) {
 	evt.preventDefault();
 
 	let startId = document.getElementById(evt.currentTarget.id);
