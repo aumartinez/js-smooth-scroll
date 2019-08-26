@@ -19,3 +19,5 @@ To use this approach there is a required setup in the HTML elements, ie:
 The element's id's will be used to pull the DOM object and use their properties to perfom the scrolling computations. Then a "starting point" or the element that triggers the event will use an attribute <code>data-scroll="true"</code> set, and an additional attribute <code>data-target="#target-point"</code> to point to the destination element.
 
 JS will be used to pull the attributes, identify the starting an ending elements and with the aid of the <code>setInterval</code> function will apply an animated scroll.
+
+You can review a sample implemented at: https://accedo-gps.000webhostapp.com/demo/js-smooth-scroll/
