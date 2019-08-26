@@ -25,7 +25,7 @@ function addEventListenerToList(datalist, evt, func) {
 function smoothScroll(evt) {
 	evt.preventDefault();
 
-	let startId = document.getElementById(evt.currentTarget.id);
+	let startId = evt.currentTarget.id;
 	let id = evt.currentTarget.getAttribute("data-target").replace("#", "");
 	let targetId = document.getElementById(id);
 	let startPos = startId.offsetTop;
