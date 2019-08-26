@@ -26,7 +26,7 @@ function smoothScroll(evt) {
 	evt.preventDefault();
 
 	let startId = evt.currentTarget;
-	let id = evt.currentTarget.getAttribute("data-target").replace("#", "");
+	let id = evt.currentTarget.getAttribute("href").replace("#", "");
 	let targetId = document.getElementById(id);
 	let startPos = startId.offsetTop;
 	let targetPos = targetId.offsetTop;
