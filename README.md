@@ -12,7 +12,7 @@ To use this approach there is a required setup in the HTML elements, ie:
 
 <div>
   <p id="target-point">
-    A paragraph with content
+    A paragraph with content ...
   </p>
 </div>
 ```
