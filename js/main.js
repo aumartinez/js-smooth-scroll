@@ -36,7 +36,7 @@ function smoothScroll(evt) {
 	let timeinterval = 10;
 	let parts = 50;
 
-	let inc = Math.abs(len / parts);
+	let inc = len / parts;
 	let sum = 0;
 	let i = 0;
 
